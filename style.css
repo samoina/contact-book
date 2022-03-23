@@ -1,0 +1,71 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+header h1 {
+  background-color: lightblue;
+  height: 100px;
+  color: #fff;
+  padding: 20px;
+}
+
+#add-contacts {
+  background-color: #d4d4d4;
+  padding-top: 20px;
+}
+
+.contact-list {
+  text-decoration: underline;
+}
+
+.contact-list:hover {
+  cursor: pointer;
+}
+
+#show-list {
+  display: none;
+}
+
+#table {
+  overflow-x: auto;
+}
+
+table {
+  width:100%;
+  text-align: center;
+}
+
+thead {
+  background-color: cadetblue;
+  line-height: 40px;
+}
+
+table, th, td{
+  border: 2px solid;
+}
+
+tr {
+  border: 2px solid #fff;
+}
+
+#trial {
+  background-color: cornsilk;
+}
+
+tr:nth-child(even) {
+  background-color: lightsteelblue;
+}
+
+.delete-button {
+  background-color: red;
+  color: #fff;
+  border: 2px solid white;
+  width: 100%;
+}
+
+.btn:hover{
+  background-color: maroon;
+  color: #fff;
+}
